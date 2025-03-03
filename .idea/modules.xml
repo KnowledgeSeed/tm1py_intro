@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../airflow-provider-tm1/.idea/airflow-provider-tm1.iml" filepath="$PROJECT_DIR$/../airflow-provider-tm1/.idea/airflow-provider-tm1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/tm1py_intro.iml" filepath="$PROJECT_DIR$/.idea/tm1py_intro.iml" />
     </modules>
   </component>
