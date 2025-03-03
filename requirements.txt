@@ -1,0 +1,4 @@
+tm1py
+configparser
+keyring
+pandas

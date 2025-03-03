@@ -16,9 +16,8 @@ user = config[INSTANCE]["user"]
 # interact with Windows Credential Manager through the keyring library
 
 password = keyring.get_password(INSTANCE, user)
-
-if not password:
-    password = getpass(f"Please insert password for user '{user}' and instance '{INSTANCE}':")
+if password is None:
+    password = getpass(prompt= f"Please insert password for user '{user}' and instance '{INSTANCE}':")
     keyring.set_password(INSTANCE, user, password)
 
 config[INSTANCE]["password"] = password
