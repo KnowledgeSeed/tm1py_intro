@@ -1,4 +1,6 @@
-tm1py
+wheel
+build
 configparser
+TM1py>=2.0
 keyring
 pandas
