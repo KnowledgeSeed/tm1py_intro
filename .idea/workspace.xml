@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a1d0bfa4-c6a2-494a-a294-8505163d0c3e" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../airflow-provider-tm1/.idea/airflow-provider-tm1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tm1py_intro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tm1py_intro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_credentail_best_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_credentail_best_practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740991659842</updated>
       <workItem from="1740991661152" duration="2809000" />
-      <workItem from="1741106874861" duration="895000" />
+      <workItem from="1741106874861" duration="1362000" />
     </task>
     <servers />
   </component>
