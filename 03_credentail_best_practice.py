@@ -14,7 +14,6 @@ port = config[INSTANCE]["port"]
 ssl = config[INSTANCE]["ssl"]
 user = config[INSTANCE]["user"]
 namespace = config[INSTANCE]["namespace"]
-keyring.set_password(INSTANCE, user, 'MY6Xs5w44iAwZ2')
 password = keyring.get_password(INSTANCE, user)
 
 # login in with AuthMode = 5 wo SSO
@@ -45,7 +44,6 @@ INSTANCE = "KSDEMO_Saas_v12"
 baseurl = config[INSTANCE]["base_url"]
 ssl = config[INSTANCE]["ssl"]
 user = config[INSTANCE]["user"]
-keyring.set_password(INSTANCE, user, 'azE6dXNyX2QwNzg0NTkxLTg2ZDctM2Y0Yy1hNDhmLWEwODNhMjFlYTAwYzpnUUxRZW5ZYTBnQiszVHpJMUp3TzFKN0xFYU9yTWFWK1dxV3JqSVN4azgwPTp2ZEd3')
 password = keyring.get_password(INSTANCE, user)
 
 # login in with AuthMode = 5 wo SSO
