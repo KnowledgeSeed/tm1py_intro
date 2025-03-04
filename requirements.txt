@@ -4,3 +4,10 @@ configparser
 TM1py>=2.0
 keyring
 pandas
+scipy
+seaborn
+matplotlib
+numpy
+pert
+configparser
+datetime
