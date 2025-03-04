@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1d0bfa4-c6a2-494a-a294-8505163d0c3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../airflow-provider-tm1/.idea/airflow-provider-tm1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_load_from_csv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_operation_hotpromote_process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trx_upload.csv" afterDir="false" />
+    <list default="true" id="a1d0bfa4-c6a2-494a-a294-8505163d0c3e" name="Changes" comment="RiskSimulation demo scripts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_read_tm1_data_to_panads.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_read_tm1_data_to_panads.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -40,30 +36,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Python.01_hello_world_tm1py.executor": "Run",
-    "Python.02_read_tm1_data_to_panads.executor": "Run",
-    "Python.03_credentail_best_practice.executor": "Run",
-    "Python.04_load_from_csv.executor": "Run",
-    "Python.05_operation_hotpromote_process.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Projects/airflow-provider-tm1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.01_hello_world_tm1py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_read_tm1_data_to_panads.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_credentail_best_practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_load_from_csv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_operation_hotpromote_process.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/airflow-provider-tm1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="01_hello_world_tm1py" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="tm1py_intro" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -103,11 +99,24 @@
       <updated>1740991659842</updated>
       <workItem from="1740991661152" duration="2809000" />
       <workItem from="1741106874861" duration="9570000" />
+      <workItem from="1741123734345" duration="72000" />
     </task>
+    <task id="LOCAL-00001" summary="RiskSimulation demo scripts">
+      <created>1741123105179</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741123105179</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="RiskSimulation demo scripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="RiskSimulation demo scripts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -120,10 +129,10 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/tm1py_intro$05_operation_hotpromote_process.coverage" NAME="05_operation_hotpromote_process Coverage Results" MODIFIED="1741118000842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tm1py_intro$04_load_from_csv.coverage" NAME="04_load_from_csv Coverage Results" MODIFIED="1741115964652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tm1py_intro$03_credentail_best_practice.coverage" NAME="03_credentail_best_practice Coverage Results" MODIFIED="1741111406317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tm1py_intro$01_hello_world_tm1py.coverage" NAME="01_hello_world_tm1py Coverage Results" MODIFIED="1741108650715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tm1py_intro$02_read_tm1_data_to_panads.coverage" NAME="02_read_tm1_data_to_panads Coverage Results" MODIFIED="1741113168934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tm1py_intro$05_operation_hotpromote_process.coverage" NAME="05_operation_hotpromote_process Coverage Results" MODIFIED="1741118000842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tm1py_intro$01_hello_world_tm1py.coverage" NAME="01_hello_world_tm1py Coverage Results" MODIFIED="1740992025928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tm1py_intro$03_credentail_best_practice.coverage" NAME="03_credentail_best_practice Coverage Results" MODIFIED="1741111406317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
