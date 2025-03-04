@@ -19,9 +19,9 @@ config[INSTANCE]["password"] = password
 with TM1Service(**config[INSTANCE]) as tm1:
     tm1_version = tm1.server.get_product_version()
     print(tm1_version)
-    # Build cellset from file
+    # define cube
     cube = 'GLTransactions'
-
+    #define clear mdx expression
     mdx = """
         SELECT 
         NON EMPTY 
@@ -43,7 +43,7 @@ with TM1Service(**config[INSTANCE]) as tm1:
         [Year].[Year].[Y3]
         )
     """
-
+    #read data from csv to pandas df
     df = pd.read_csv('trx_upload.csv')
     print(df)
     #make sure all column for dimensions are string
