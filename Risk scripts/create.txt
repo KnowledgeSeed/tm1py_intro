@@ -1,0 +1,1 @@
+python create_and_fill.py '2018-01-01' '2020-01-01' 'USD' 'AUD,GBP,CHF'
